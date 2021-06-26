@@ -1,0 +1,16 @@
+### Send request to localhost
+POST http://localhost:3978/test-post HTTP/1.1
+content-type: application/json
+
+{
+	"body":"Empty"
+}
+
+### Send request to localhost
+POST http://localhost:3978/foo HTTP/1.1
+content-type: application/json
+
+{
+	"body":"Empty"
+}
+
